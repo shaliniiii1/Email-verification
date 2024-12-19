@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Tally.so</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">tally.so</div>
+        <div class="nav-right">
+            <div class="search-icon">🔍</div>
+            <div class="user-profile">
+                <img src="mei.jpg" alt="hi" avatar>
+                <span>Anete</span>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <aside class="side-nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Domains</a></li>
+                <li><a href="#">Settings</a></li>
+                
+                <li class="workspace-header">Workspaces</li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">HR</a></li>
+                <li><a href="#">Demo</a></li>
+
+                <li class="nav-section-header">Tools</li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Roadmap</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Trash</a></li>
+
+                <li class="nav-section-header">Help</li>
+                <li><a href="#">Get started</a></li>
+                <li><a href="#">How-to guides</a></li>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#">Contact support</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <h1>Registration form</h1>
+                <button class="preview-button">Preview form</button>
+            </div>
+
+            <div class="tabs">
+                <button class="tab active">Build</button>
+                <button class="tab">Share</button>
+                <button class="tab">Responses</button>
+                <button class="tab">Settings</button>
+            </div>
+
+            <div class="notification-section">
+                <h2>Email notifications</h2>
+                <div class="toggle-container">
+                    <label class="toggle">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                    <span>Self email notifications</span>
+                </div>
+
+                <form class="email-form">
+                    <div class="form-group">
+                        <label for="to">To:</label>
+                        <input type="email" id="to" value="anete@acme.inc" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reply-to">Reply to:</label>
+                        <input type="email" id="reply-to">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" value="New Tally Form Submission for @Form name -" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="from-name">From name:</label>
+                        <input type="text" id="from-name" value="Tally Forms" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="first-name">First name:</label>
+                        <input type="text" id="first-name" placeholder="@First name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name:</label>
+                        <input type="text" id="last-name" placeholder="@Last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="@Email">
+                    </div>
+
+                    <div class="notification-options">
+                        <h3>Additional Settings</h3>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="notify-submissions">
+                            <label for="notify-submissions">Notify me for all submissions</label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="notify-changes">
+                            <label for="notify-changes">Notify me when form is edited</label>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="save-button">Save changes</button>
+                        <a href="#" class="learn-more">Learn about settings</a>
+                    </div>
+                </form>
+            </div>
+              <div class="additional-settings">
+                  <h2>Form Settings</h2>
+                  <div class="settings-grid">
+                      <div class="setting-card">
+                          <div class="setting-icon">🔒</div>
+                          <div class="setting-content">
+                              <h3>Form Access</h3>
+                              <p>Control who can view and submit your form</p>
+                              <a href="#" class="configure-link">Configure →</a>
+                          </div>
+                      </div>
+                      <div class="setting-card">
+                          <div class="setting-icon">⏱️</div>
+                          <div class="setting-content">
+                              <h3>Response Limits</h3>
+                              <p>Set submission limits and schedule form availability</p>
+                              <a href="#" class="configure-link">Configure →</a>
+                          </div>
+                      </div>
+                      <div class="setting-card">
+                          <div class="setting-icon">🌐</div>
+                          <div class="setting-content">
+                              <h3>Custom Domain</h3>
+                              <p>Use your own domain for the form URL</p>
+                              <a href="#" class="configure-link">Configure →</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </main>
+    </div>
+</body>
+</html>
